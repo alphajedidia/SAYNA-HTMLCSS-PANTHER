@@ -269,8 +269,8 @@ footer p{
 
 p[class='wakanda-forever'] {
     font-family: 'Wakanda Forever';
-    font-size: 1.75em;
-    letter-spacing: 0.25em;
+    font-size: 1.75rem;
+    letter-spacing: 0.25rem;
     color: #9E91B7;
 }
 
@@ -279,7 +279,7 @@ section[class="enigme"] {
 }
 
 section[class='enigme'] .response {
-    margin-top: 7em;
+    margin-top: 7rem;
     display: grid;
     grid-template-columns: 4fr 0.5fr 6fr;
 }
@@ -305,24 +305,24 @@ section[class='enigme'] .transcription .wf {
 section[class='enigme'] .transcription input {
     width: 90%;
     height: 3vw;
-    border-radius: 3em;
+    border-radius: 3rem;
     border: 1px solid #9E91B7;
     padding: 0 5%;
     background-color: transparent;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 section[class='enigme'] .transcription .in-res {
-    margin-top: 7em;
+    margin-top: 7rem;
 }
 
 section[class='enigme'] .transcription button {
     height: 10%;
-    border-radius: 3em;
+    border-radius: 3rem;
     margin-top: 2%;
     border: none;
     padding: 3% 5% 3% 5%;
     background-color: #F2CEF2;
-    margin-top: 5em;
-    font-size: 1em;
+    margin-top: 5rem;
+    font-size: 1rem;
 }
