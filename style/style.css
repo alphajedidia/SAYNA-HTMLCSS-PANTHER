@@ -6,6 +6,22 @@
 html{
     font-size: 20px;
 }
+@font-face {
+    font-family: BEYNO;
+    src: url(../fonts/BEYNO/BEYNO.ttf);
+}
+@font-face {
+    font-family: Cantarell;
+    src: url(../fonts/Cantarell/Cantarell-Regular.ttf);
+}
+@font-face {
+    font-family: Panthera;
+    src: url(../fonts/Panthera/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family: Wakanda forever;
+    src: url(../fonts/Wakanda/WakandaForever-Regular.ttf);
+}
 :root{
     --gris : #9E91B7;
     --bleu : #07338C;
@@ -16,6 +32,8 @@ html{
 }
 body{
     background-image: url(/IllustrationsLogo/Allpages/arrière_plan.png);
+    font-family: 'Cantarell';
+    font-weight: 100;
 }
 header .ligneLeft{
     display: flex;
@@ -51,6 +69,12 @@ header nav .navigation a{
     text-decoration: none;
     color: white;
     margin-left: 2rem;
+    font-family: 'BEYNO';
+}
+header nav .navigation a:hover{
+    color: var(--gris);
+    text-decoration: underline;
+    transition: 1s;
 }
 header nav .navigation #accueil{
     color: var(--gris);
@@ -73,10 +97,13 @@ header .intro .textIntro h1{
     color: var(--gris);
     font-size: 2.3rem;
     margin-bottom: 1rem;
+    font-family: 'Panthera';
 }
 header .intro .textIntro h4{
     color: var(--gris);
     font-size: 1.2rem;
+    font-family: 'BEYNO';
+    font-weight: 100;
 }
 header .intro .textIntro p{
     font-size: 0.6rem;
@@ -109,6 +136,8 @@ header .intro .textIntro a{
 .textacteur h1{
     color: var(--gris);
     font-size: 1.2rem;
+    font-family: 'BEYNO';
+    font-weight: 100;
 }
 .textacteur p{
     font-size: 0.7rem;
