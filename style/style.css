@@ -396,6 +396,10 @@ section[class='enigme'] .transcription button {
 section[class='enigme'] .transcription button:hover{
     box-shadow: 0 0 20px  #F2CEF2;
 }
+.ligneEnigm{
+    display: flex;
+    justify-content: flex-end;
+}
 /******* Wakanda page********/
 #rightSideWakanda{
     width: 60%;
