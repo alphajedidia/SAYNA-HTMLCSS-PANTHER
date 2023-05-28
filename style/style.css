@@ -73,7 +73,6 @@ header nav .navigation a{
 }
 header nav .navigation a:hover{
     color: var(--gris);
-    text-decoration: underline;
     transition: 1s;
 }
 header nav .navigation #accueil{
@@ -158,7 +157,7 @@ header .intro .textIntro a{
     background-color: white;
     border-radius: 0.5rem;
     width: 25vw;
-    height: 90vh;
+    height: max-content;
     position: relative;
     top: 10rem;
     margin-right: 5rem;
@@ -244,6 +243,9 @@ form p{
     background-color:var(--littleRose);
     font-weight: bold;
 }
+#submit:hover{
+    box-shadow:  0 0  20px #021740;
+}
 footer{
     background-image: url(/IllustrationsLogo/Allpages/back_footer.png);
     height: 70vh;
@@ -252,8 +254,23 @@ footer{
     justify-content: center;
     color: white;
 }
-footer p{
+footer p a{
     font-size: 0.8rem;
+    color: white;
+    text-decoration: none;
+}
+footer p a::after{
+    content: " ";
+    display: block;
+    width: 0px;
+    max-width: 5px auto 0 auto;
+    height: 2px;
+    border-radius: 2px;
+    background: white;
+    transition: width 0.2s ease-out;
+}
+footer p a:hover::after{
+    width: 100%;
 }
 .marvel{
     margin-top: 2rem;
@@ -263,6 +280,9 @@ footer p{
     top: -9.5rem;
     left: -12rem;
 }
+#marvelFooter:hover{
+    transform: scale(1.1);
+}
 .hightContact{
     margin-top: 7rem;
     display: flex;
@@ -271,6 +291,9 @@ footer p{
 .iconSocialMediaFooter{
     display: flex;
     justify-content: space-between;
+}
+.iconSocialMediaFooter a:hover{
+    transform: scale(1.1);
 }
 .contactfooter .pages{
     margin-right: 10rem;
@@ -355,6 +378,9 @@ section[class='enigme'] .transcription button {
     margin-top: 5rem;
     font-size: 1rem;
 }
+section[class='enigme'] .transcription button:hover{
+    box-shadow: 0 0 20px  #F2CEF2;
+}
 /******* Wakanda page********/
 #rightSideWakanda{
     width: 60%;
@@ -398,4 +424,26 @@ section[class='enigme'] .transcription button {
 }
 #wakandaPage{
     color: white;
+}
+@media (max-width : 1024px) {
+    html {
+        font-size: 16px;
+    }
+    .textacteur {
+        margin: 0.9rem;
+    }
+    #marvelFooter{
+        top: -12rem;
+        left: -14rem;
+    }
+}
+@media (max-width : 768px){
+    html{
+        font-size: 10px;
+    }
+}
+@media (max-width : 425px){
+    html{
+        font-size: 8px;
+    }
 }
