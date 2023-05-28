@@ -73,6 +73,7 @@ header nav .navigation a{
 }
 header nav .navigation a:hover{
     color: var(--gris);
+    text-decoration: underline;
     transition: 1s;
 }
 header nav .navigation #accueil{
