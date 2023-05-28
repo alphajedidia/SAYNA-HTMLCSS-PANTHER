@@ -22,6 +22,16 @@ html{
     font-family: Wakanda forever;
     src: url(../fonts/Wakanda/WakandaForever-Regular.ttf);
 }
+@keyframes anim {
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1; 
+    }
+}
 :root{
     --gris : #9E91B7;
     --bleu : #07338C;
@@ -34,6 +44,7 @@ body{
     background-image: url(/IllustrationsLogo/Allpages/arrière_plan.png);
     font-family: 'Cantarell';
     font-weight: 100;
+    animation: anim 2s ease-out;
 }
 header .ligneLeft{
     display: flex;
@@ -64,6 +75,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     margin: 2rem 7rem;
+    animation: anim 2s ease-out;
 }
 header nav .navigation a{
     text-decoration: none;
@@ -83,6 +95,7 @@ header nav .navigation #accueil{
 header .intro{
     display: flex;
     justify-content: space-around;
+    animation: anim 2s ease-out;
 }
 header .intro img{
     width: 60vw;
@@ -118,6 +131,7 @@ header .intro .textIntro a{
     margin-left: 10vw;
     background-color: var(--noir);
     height: 30vh;
+    animation: anim 2s ease-out;
 }
 .acteur .img{
     width: 15vw;
