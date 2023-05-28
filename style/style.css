@@ -308,7 +308,7 @@ footer p a:hover::after{
     justify-content: space-between;
 }
 .iconSocialMediaFooter a:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .contactfooter .pages{
     margin-right: 10rem;
